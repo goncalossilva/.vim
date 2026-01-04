@@ -2,16 +2,16 @@
 
 This repo contains my [vim configuration](vimrc) and [plugins](pack/vendor/start), used across Linux and macOS.
 
-# Setup
+## Setup
 
-1. `git clone --depth 1 git@github.com:goncalossilva/vimrc.git ~/.vim`
+1. `git clone --depth 1 git@github.com:goncalossilva/.vim.git ~/.vim`
 2. `cd ~/.vim && git submodule update --init`
 
 Done.
 
 To update all plugins, run `git submodule update --remote`.
 
-## A note on ALE
+### A note on ALE
 
 Besides linting and (auto-)fixing, [ALE](https://github.com/dense-analysis/ale) is used for intellisense-like completion, replacing alternatives like [coc.vim](https://github.com/neoclide/coc.nvim). To have linters, LSPs, etc, available without polluting \$PATH, install them locally and source them.
 
